@@ -121,12 +121,12 @@ export default function Cart() {
             </Link>
           </div>
           <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
-            <p>
+            <p >
               or
               <Link to="/">
                 <button
                   type="button"
-                  className="font-medium text-indigo-600 hover:text-indigo-500"
+                  className="font-medium text-indigo-600 hover:text-indigo-500 ml-2"
                   onClick={() => setOpen(false)}
                 >
                   Continue Shopping
