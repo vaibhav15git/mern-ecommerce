@@ -1,10 +1,12 @@
 import React from "react";
-
 import "./App.css";
-import Home from "./pages/Home";
-import LoginPage from "./features/auth/components/Login";
-import SignupPage from "./pages/SignupPage";
 import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+
+import SignupPage from "./pages/SignupPage";
+import CartPage from "./pages/CartPage";
+import LoginPage from "./pages/LoginPage";
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path="/cart" element={<CartPage />} />
       </Routes>
     </div>
   );
